@@ -77,3 +77,14 @@ Git
     14. 만든 커밋 github 푸시
         git push -u origin master
         git push origin master
+
+
+
+
+        echo "# test0417b" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jhjjang0922/test0417b.git
+git push -u origin main
